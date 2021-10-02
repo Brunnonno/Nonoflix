@@ -1,12 +1,14 @@
 :root{
     --vermelho:#E50914;
     --preta:#141414;
+    
 }
 
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    color: inherit;
 }
 
 /*elementos base*/
@@ -30,6 +32,7 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size:40px;
+    
 }
 
 header nav a{
@@ -55,7 +58,8 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
+    
+    }
 
 
 .filme-principal .descricao{
@@ -86,6 +90,7 @@ header nav a:hover{
 .botao:hover{
     background-color:white;
     color:black;
+    
 }
 
 .botao i{
